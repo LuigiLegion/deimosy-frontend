@@ -1,44 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Deimosy
 
-## Available Scripts
+![Deimosy Screenshot](./public/screenshot.png)
 
-In the project directory, you can run:
+### Video Presentation:
 
-### `npm start`
+Coming soon...
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Deployed Web App:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+https://deimos-y.web.app
 
-### `npm test`
+### Source:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://github.com/luigilegion/deimosy-backend
 
-### `npm run build`
+### Description:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Named after the smaller and outermost of the two moons of the planet Mars, Deimosy is a pathfinding simulator web app for probes navigating the surface of Mars.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+In its core, Deimosy relies on a rendition of the A\* search algorithm that calculates the cost of a step based on the absolute value of the difference between the weight of a given node and that of its neighbor, with the weight of a node being the equivalent of its altitude.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+MVP completed in 4 days for a solo project.
 
-### `npm run eject`
+### Tech Stack:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Built using Python and Flask on the backend, TypeScript, React, and Bulma on the frontend, and utilizes P5.js.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Dev Team:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Tal Luigi ([LinkedIn](https://www.linkedin.com/in/talluigi) | [GitHub](https://github.com/luigilegion))
