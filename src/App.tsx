@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// Imports
+import React, { useState, FunctionComponent } from 'react';
 
-function App() {
+import Navbar from './Navbar';
+import P5 from './P5';
+import MadeBy from './MadeBy';
+
+// Component
+const App: FunctionComponent = () => {
+  const [clear, setClear] = useState(false);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar clear={clear} setClear={setClear} />
+
+      <P5 clear={clear} />
+
+      <MadeBy />
     </div>
   );
-}
+};
 
 export default App;
