@@ -7,7 +7,70 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.text-style-bold {
+  font-weight: bold;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+a.navbar-logo-container:hover {
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+.navbar-logo-containee {
+  font-size: xx-large;
+}
+
+a.navbar-item:focus {
+  color: #4a4a4a;
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-item:hover {
+  text-decoration: underline;
+}
+
+.navbar-burger {
+  margin: 0.4em 0.4em 0em auto;
+}
+
+.made-by {
+  padding: 1.75em 0em 2em 0em;
+}
+
+a.author-name:hover {
+  color: #3273dc;
+  text-decoration: underline;
+}
+
+#p5_loading {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
