@@ -12,7 +12,7 @@ const optimalPath = async (start: Coord, end: Coord) => {
     p5.style.cursor = 'wait';
 
     const { data }: { data: number[][] } = await axios.post(
-      'http://localhost:5000/path',
+      'https://deimosy.herokuapp.com/path',
       {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ start, end }),
