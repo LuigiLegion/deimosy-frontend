@@ -13,4 +13,5 @@ const Preloader: FunctionComponent = () => {
   );
 };
 
+// Exports
 export default Preloader;

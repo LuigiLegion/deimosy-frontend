@@ -1,7 +1,7 @@
 // Imports
 import React, { FunctionComponent } from 'react';
 
-import { LinksProps } from './interfaces';
+import { LinksProps } from '../../interfaces';
 
 // Component
 const Links: FunctionComponent<LinksProps> = ({
@@ -52,4 +52,5 @@ const Links: FunctionComponent<LinksProps> = ({
   );
 };
 
+// Exports
 export default Links;

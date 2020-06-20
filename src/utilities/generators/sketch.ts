@@ -1,6 +1,6 @@
 // Imports
-import { P, Img, Coord } from './interfaces';
-import optimalPath from './optimalPath';
+import { P, Img, Coord } from '../../interfaces';
+import { optimalPath } from '../../utilities';
 
 // Initializations
 const sketch = (p: P) => {
@@ -11,7 +11,7 @@ const sketch = (p: P) => {
   let paths: number[][][] = [];
 
   p.preload = async () => {
-    img = await p.loadImage('https://deimosy.herokuapp.com/static/1.png');
+    img = await p.loadImage(process.env.REACT_APP_IMG_URL);
   };
 
   p.setup = () => {

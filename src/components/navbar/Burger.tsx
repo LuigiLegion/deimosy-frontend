@@ -1,7 +1,7 @@
 // Imports
 import React, { FunctionComponent } from 'react';
 
-import { BurgerProps } from './interfaces';
+import { BurgerProps } from '../../interfaces';
 
 // Component
 const Navbar: FunctionComponent<BurgerProps> = ({ active, setActive }) => {
@@ -25,4 +25,5 @@ const Navbar: FunctionComponent<BurgerProps> = ({ active, setActive }) => {
   );
 };
 
+// Exports
 export default Navbar;

@@ -14,4 +14,5 @@ const Logo: FunctionComponent = () => {
   );
 };
 
+// Exports
 export default Logo;

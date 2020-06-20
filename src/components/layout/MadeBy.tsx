@@ -18,4 +18,5 @@ const MadeBy: FunctionComponent = () => {
   );
 };
 
+// Exports
 export default MadeBy;

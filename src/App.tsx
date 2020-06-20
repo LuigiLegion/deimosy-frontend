@@ -1,9 +1,9 @@
 // Imports
 import React, { useState, FunctionComponent } from 'react';
 
-import Navbar from './Navbar';
-import P5 from './P5';
-import MadeBy from './MadeBy';
+import Navbar from './components/navbar/Navbar';
+import P5 from './components/p5/P5';
+import MadeBy from './components/layout/MadeBy';
 
 // Component
 const App: FunctionComponent = () => {
@@ -20,4 +20,5 @@ const App: FunctionComponent = () => {
   );
 };
 
+// Exports
 export default App;

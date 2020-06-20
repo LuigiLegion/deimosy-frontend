@@ -1,7 +1,7 @@
 // Imports
 import axios from 'axios';
 
-import { Coord } from './interfaces';
+import { Coord } from '../../interfaces';
 
 // Initializations
 const optimalPath = async (start: Coord, end: Coord) => {
@@ -12,7 +12,7 @@ const optimalPath = async (start: Coord, end: Coord) => {
     p5.style.cursor = 'wait';
 
     const { data }: { data: number[][] } = await axios.post(
-      'https://deimosy.herokuapp.com/path',
+      process.env.REACT_APP_PATH_URL || '',
       {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ start, end }),

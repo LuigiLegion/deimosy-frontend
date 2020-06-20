@@ -1,8 +1,8 @@
 // Imports
 import React, { useState, FunctionComponent } from 'react';
 
-import { NavbarProps } from './interfaces';
-import Logo from './Logo';
+import { NavbarProps } from '../../interfaces';
+import Logo from '../layout/Logo';
 import Burger from './Burger';
 import Links from './Links';
 
@@ -28,4 +28,5 @@ const Navbar: FunctionComponent<NavbarProps> = ({ clear, setClear }) => {
   );
 };
 
+// Exports
 export default Navbar;
