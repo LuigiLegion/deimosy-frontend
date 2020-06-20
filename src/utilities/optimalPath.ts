@@ -12,7 +12,7 @@ const optimalPath = async (start: Coord, end: Coord) => {
     p5.style.cursor = 'wait';
 
     const { data }: { data: number[][] } = await axios.post(
-      'https://deimosy.herokuapp.com/path',
+      process.env.REACT_APP_PATH_URL || '',
       {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ start, end }),
