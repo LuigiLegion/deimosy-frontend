@@ -1,6 +1,6 @@
 // Imports
-import { P, Img, Coord } from '../interfaces';
-import optimalPath from './optimalPath';
+import { P, Img, Coord } from '../../interfaces';
+import { optimalPath } from '../../utilities';
 
 // Initializations
 const sketch = (p: P) => {
