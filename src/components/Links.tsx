@@ -1,7 +1,7 @@
 // Imports
 import React, { FunctionComponent } from 'react';
 
-import { LinksProps } from './interfaces';
+import { LinksProps } from '../interfaces';
 
 // Component
 const Links: FunctionComponent<LinksProps> = ({

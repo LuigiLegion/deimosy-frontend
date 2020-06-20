@@ -1,7 +1,7 @@
 // Imports
 import React, { useState, FunctionComponent } from 'react';
 
-import { NavbarProps } from './interfaces';
+import { NavbarProps } from '../interfaces';
 import Logo from './Logo';
 import Burger from './Burger';
 import Links from './Links';

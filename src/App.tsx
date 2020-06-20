@@ -1,9 +1,9 @@
 // Imports
 import React, { useState, FunctionComponent } from 'react';
 
-import Navbar from './Navbar';
-import P5 from './P5';
-import MadeBy from './MadeBy';
+import Navbar from './components/Navbar';
+import P5 from './components/P5';
+import MadeBy from './components/MadeBy';
 
 // Component
 const App: FunctionComponent = () => {

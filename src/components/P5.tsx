@@ -2,9 +2,9 @@
 import React, { FunctionComponent } from 'react';
 import P5Wrapper from 'react-p5-wrapper';
 
-import { P5Props } from './interfaces';
+import { P5Props } from '../interfaces';
 import Preloader from './Preloader';
-import sketch from './sketch';
+import sketch from '../utilities/sketch';
 
 // Component
 const P5: FunctionComponent<P5Props> = ({ clear }) => {
