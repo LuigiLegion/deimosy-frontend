@@ -17,4 +17,5 @@ const P5: FunctionComponent<P5Props> = ({ clear }) => {
   );
 };
 
+// Exports
 export default P5;

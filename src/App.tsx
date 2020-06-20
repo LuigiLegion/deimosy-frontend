@@ -20,4 +20,5 @@ const App: FunctionComponent = () => {
   );
 };
 
+// Exports
 export default App;

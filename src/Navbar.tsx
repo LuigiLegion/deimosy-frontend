@@ -28,4 +28,5 @@ const Navbar: FunctionComponent<NavbarProps> = ({ clear, setClear }) => {
   );
 };
 
+// Exports
 export default Navbar;

@@ -52,4 +52,5 @@ const Links: FunctionComponent<LinksProps> = ({
   );
 };
 
+// Exports
 export default Links;

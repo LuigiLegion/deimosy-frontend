@@ -25,4 +25,5 @@ const Navbar: FunctionComponent<BurgerProps> = ({ active, setActive }) => {
   );
 };
 
+// Exports
 export default Navbar;
