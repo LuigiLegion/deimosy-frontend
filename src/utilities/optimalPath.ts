@@ -1,7 +1,7 @@
 // Imports
 import axios from 'axios';
 
-import { Coord } from './interfaces';
+import { Coord } from '../interfaces';
 
 // Initializations
 const optimalPath = async (start: Coord, end: Coord) => {

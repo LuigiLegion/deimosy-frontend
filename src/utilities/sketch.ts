@@ -1,5 +1,5 @@
 // Imports
-import { P, Img, Coord } from './interfaces';
+import { P, Img, Coord } from '../interfaces';
 import optimalPath from './optimalPath';
 
 // Initializations
