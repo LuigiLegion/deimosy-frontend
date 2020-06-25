@@ -11,7 +11,7 @@ const sketch = (p: P) => {
   let paths: number[][][] = [];
 
   p.preload = async () => {
-    img = await p.loadImage(process.env.REACT_APP_IMG_URL);
+    img = await p.loadImage('./images/1.png');
   };
 
   p.setup = () => {
