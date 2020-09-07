@@ -1,6 +1,6 @@
 // Imports
 import { P, Img, Coord } from '../../interfaces';
-import { optimalPath } from '../../utilities';
+import { optimalPath } from '../../utils';
 
 // Initializations
 const sketch = (p: P) => {
