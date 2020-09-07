@@ -4,7 +4,7 @@ import P5Wrapper from 'react-p5-wrapper';
 
 import { P5Props } from '../../interfaces';
 import Preloader from '../layout/Preloader';
-import { sketch } from '../../utilities';
+import { sketch } from '../../utils';
 
 // Component
 const P5: FunctionComponent<P5Props> = ({ clear }) => {
