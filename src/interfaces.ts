@@ -46,14 +46,14 @@ export interface P {
   myCustomRedrawAccordingToNewPropsHandler: Function;
 }
 
-export interface Img {
+export interface Image {
   width: number;
   height: number;
   pixels: object;
   loadPixels: Function;
 }
 
-export interface Coord {
+export interface Coordinate {
   x: number | null;
   y: number | null;
 }
