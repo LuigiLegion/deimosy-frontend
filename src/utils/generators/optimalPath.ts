@@ -1,10 +1,10 @@
 // Imports
 import axios from 'axios';
 
-import { Coord } from '../../interfaces';
+import { Coordinate } from '../../interfaces';
 
 // Initializations
-const optimalPath = async (start: Coord, end: Coord) => {
+const optimalPath = async (start: Coordinate, end: Coordinate) => {
   const p5 = document.getElementById('p5') as HTMLInputElement;
   const { cursor } = p5.style;
 

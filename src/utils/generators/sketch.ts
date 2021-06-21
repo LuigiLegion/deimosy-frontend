@@ -1,12 +1,12 @@
 // Imports
-import { P, Img, Coord } from '../../interfaces';
+import { P, Image, Coordinate } from '../../interfaces';
 import { optimalPath } from '../../utils';
 
 // Initializations
 const sketch = (p: P) => {
-  let img: Img;
-  let start: Coord = { x: null, y: null };
-  let end: Coord = { x: null, y: null };
+  let img: Image;
+  let start: Coordinate = { x: null, y: null };
+  let end: Coordinate = { x: null, y: null };
   let path: number[][] = [];
   let paths: number[][][] = [];
 
